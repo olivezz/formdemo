@@ -1,0 +1,151 @@
+<!doctype html>
+<html class="no-js" ng-app="demo">
+<head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body id="bs-or">
+<header class="container-fluid">
+    <!-- Navigation -->
+    <div class="container logo">
+        <a class="interad_logo" href="#">
+            <img class="img-responsive" src="assets/images/interad_logo.png" alt="logo">
+        </a>
+    </div>
+    <div class="slider">
+        <div class="container">
+
+            <img src="assets/images/sample_creditcard.png" alt="Credit Card">
+            <h1>What can the <span class="dark-color">Interad<sup>®</sup> card</span> do for you?</h1>
+
+        </div>
+    </div>
+    <div class="container">
+        <h2>Simply complete the form below to enter the CashBack<sup>®</sup> Contest for a chance to win<sup>**</sup> 1 of 10 trips worth $10,000.</h2>
+    </div>
+</header>
+
+<div class="container-fluid body-content">
+
+    <div class="mail-form container">
+
+        <form action="" method="post" id="mc-form" name="mc-form" data-toggle="validator" role="form">
+            <div class="row">
+                <fieldset class="form-group col-md-6">
+                    <label for="InputName">Your Name <span>&nbsp; as it appears on the credit card</span></label>
+                    <input type="text" class="form-control has-feedback" id="InputName" name="Name" placeholder="Name">
+                    <div class="help-block with-errors text-uppercase"></div>
+                </fieldset>
+
+                <fieldset class="form-group col-md-6">
+                    <label for="InputEmail">Email</label>
+                    <input type="email" class="form-control" id="InputEmail" name="Email" placeholder="Email">
+                    <div class="help-block with-errors text-uppercase"></div>
+                </fieldset>
+            </div>
+
+            <div class="row">
+                <fieldset class="form-group col-md-6">
+                    <label>Interad CashBack<sup>®</sup> Credit Card Number</label><br>
+                    <input class="form-control small-field" type="number" min="1000" max="9999" name="creditCard1" id="creditCard1" required/>
+                    -
+                    <input class="form-control small-field" type="number" min="1000" max="9999" name="creditCard2" id="creditCard2" required/>
+                    -
+                    <input class="form-control small-field" type="number" min="1000" max="9999" name="creditCard3" id="creditCard3" required/>
+                    -
+                    <input class="form-control small-field" type="number" min="1000" max="9999"  name="creditCard4" id="creditCard4" required/>
+                    <br />
+                    <div class="help-block with-errors text-uppercase"></div>
+                </fieldset>
+
+                <fieldset class="form-group col-md-6">
+                    <label for="InputDaytime"><span class="error">*</span>Daytime Phone Number</label>
+                    <input type="text" class="form-control" id="InputDaytime" name="Daytime" placeholder="Phone Number" required>
+                    <div class="help-block with-errors text-uppercase"></div>
+                </fieldset>
+            </div>
+
+            <div class="row">
+                <fieldset class="form-group col-md-12">
+                    <label for="InputMessage">Why do you deserve this money?</label>
+                    <textarea type="text" class="form-control area-control" rows="3" id="InputMessage" name="Message"></textarea>
+                    <div class="help-block with-errors text-uppercase"></div>
+                </fieldset>
+            </div>
+            <hr>
+
+            <div class="row">
+                <fieldset class="form-group col-lg-12">
+                    <label>
+                        <input id="check-card" class="check-card" type="checkbox">&nbsp;&nbsp;I am registering an Interad® Business card
+                    </label>
+                </fieldset>
+            </div><br>
+
+            <div class="row business-row">
+                <section>
+                    <fieldset class="form-group col-md-12">
+                        <label for="InputBusiness">Business Name <span> as it appears on the credit card</span></label>
+                        <input type="text" class="form-control" id="InputBusiness" name="Name" placeholder="Name">
+                        <div class="help-block with-errors text-uppercase"></div>
+                    </fieldset>
+                    <fieldset class="form-group col-md-10">
+                        <label>
+                            <input id="check-business" class="col-md-1 col-sm-1" type="checkbox">
+                            <div class="col-md-9 col-sm- check-text">I certify that I am the owner of the business under which the business Interad Platinum card that I've entered (into this Contest) has been issued.<br>
+                            <h5>Note: If an Interad Platinum card is selected as a potential winner, the business owner must provide identification satisfactory to the Sponsor confirming the business ownership. The prize will be awarded in the name of the business and the business owner(s) will determine who will participate in the prize. </h5></div>
+                        </label>
+                    </fieldset>
+                </section>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <section class="col-md-12">
+                    <fieldset class="form-group">
+                        <label>
+                            <input id="check-agree" type="checkbox">&nbsp;&nbsp;I have read and agree to the
+                            <a href="pop" target="">Official Contest Rules and Regulations.</a>
+                            <h5>No purchase necessary. Contest starts April 1, 2013 and ends May 31, 2013.</h5>
+                        </label>
+                    </fieldset>
+                </section>
+            </div>
+
+            <div class="row btn-row">
+                <button type="submit" name="subscribe" id="mc-submit" class="btn">Submit Entry</button>
+            </div>
+
+            <hr>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row m-y-2">
+                <p class="copyright text-muted small">Interad Website, ©1994-2013</p>
+        </div>
+        <div class="row m-y-2">
+                <span><a href="#">Privacy & Security</a></span> |
+                <span><a href="#">Legal</a></span> |
+                <span><a href="#">Accessibility</a></span>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery first, then Bootstrap JS. -->
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.validation.js"></script>
+
+
+</body>
+</html>

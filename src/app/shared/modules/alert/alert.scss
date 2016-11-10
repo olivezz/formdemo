@@ -1,0 +1,35 @@
+.alert-container{
+    position: fixed;
+    z-index: 2000;
+    top:15px;
+    right:0;
+    bottom:15px;
+    width: 300px;
+}
+.alert {
+    color:#fff;
+    border-radius: 0;
+    button{
+        outline:none;
+    }
+}
+
+.alert-info {
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.alert-danger {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.alert-warning {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.alert-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}

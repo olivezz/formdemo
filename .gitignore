@@ -1,0 +1,12 @@
+logs/*
+!.gitkeep
+coverage/
+node_modules/
+
+app/data/
+app/uploads/
+app/src/test/
+tmp
+.DS_Store
+.idea
+dist/*

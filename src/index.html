@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" ng-app="demo">
+<head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- build:css assets/css/styles.min.css -->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- endbuild -->
+
+</head>
+<body id="bs-or">
+
+<div data-ng-include="'app/home/home.html'"></div>
+
+<alert></alert>
+<!--build:js js/vendor.min.js -->
+
+<!-- Vendor Scripts -->
+<script src="lib/angular/angular.min.js"></script>
+<script src="lib/angular-route/angular-route.min.js"></script>
+<script src="lib/lodash/dist/lodash.min.js"></script>
+<script src="lib/moment/min/moment.min.js"></script>
+<script src="lib/spin.js/spin.js"></script>
+
+<!-- inject:js -->
+<script src="app.js"></script>
+
+<script src="app/shared/modules/alert/alert.module.js"></script>
+<script src="app/shared/modules/exception/exception.module.js"></script>
+<script src="app/shared/modules/alert/alert.directive.js"></script>
+<script src="app/shared/modules/alert/alert.service.js"></script>
+<script src="app/shared/modules/exception/exception-handler.provider.js"></script>
+<script src="app/shared/modules/exception/interpolate.provider.js"></script>
+
+<script src="app/home/home.controller.js"></script>
+<!-- endinject -->
+
+<!-- endbuild -->
+
+</body>
+</html>
